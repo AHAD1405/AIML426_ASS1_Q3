@@ -126,10 +126,9 @@ def print_table(best_fitness, best_individual):
 
 def main():
     population_size = 100
-    generations = 10
+    generations = 40
     tournament_size = 5
     crossover_rate = 0.9
-    mutation_rate = 0.1
     seeds_val = [20, 30,40]
     max_depth = 5
     best_fitness_li = []
